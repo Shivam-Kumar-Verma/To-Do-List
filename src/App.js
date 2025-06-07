@@ -97,7 +97,6 @@ function App() {
   const toggleDark = () => setDarkMode(!darkMode);
 
   const exportPDF = () => {
-    const content = document.getElementById('todo-list');
     const printWindow = window.open('', '_blank');
     printWindow.document.write(`
       <html>
